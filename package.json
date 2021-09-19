@@ -19,5 +19,14 @@
     },
     "dependencies": {
         "koa-views": "^7.0.1"
+    },
+    "author": {
+        "email": "parangee9706@gmail.com",
+        "name": "pikokr",
+        "url": "https://github.com/pikokr"
+    },
+    "repository": {
+        "url": "https://github.com/pikokr/koa-inertia",
+        "type": "git"
     }
 }
