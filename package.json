@@ -3,7 +3,6 @@
     "version": "1.0.7",
     "main": "dist/index.js",
     "license": "MIT",
-    "types": "./typings.d.ts",
     "devDependencies": {
         "@types/koa": "^2.13.4",
         "@types/koa-router": "^7.4.4",

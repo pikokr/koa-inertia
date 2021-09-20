@@ -1,5 +1,3 @@
-export * from './dist/index'
-
 export interface Inertia {
     render(component: string, props?: any): Promise<void>
     share(key: string, value: any): void
