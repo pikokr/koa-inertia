@@ -21,12 +21,17 @@ export const inertia = (viewName: string, version = '1'): Middleware => {
                         ...props,
                     },
                     version,
+                    url: ctx.originalUrl || ctx.url,
+                }
+
+                if (ctx.headers['x-inertia']) {
+                    ctx.body = pageData
+                    return
                 }
 
                 await ctx.render(viewName, {
                     ...viewData,
                     pageData: JSON.stringify(pageData),
-                    url: ctx.originalUrl || ctx.url,
                 })
             },
             share: (key, value) => {
