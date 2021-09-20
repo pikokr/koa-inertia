@@ -18,7 +18,7 @@ html(lang='ko')
     head
         title MyApp
         script(type='text/javascript' src='/dist/js/app.js')
-    body(data-page=`'${pageData}'`)
+    body(data-page=pageData)
         #root
 ```
 
