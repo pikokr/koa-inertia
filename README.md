@@ -16,7 +16,7 @@ doctype html
 
 html(lang='ko')
     head
-        title UniqueBots
+        title MyApp
         script(type='text/javascript' src='/dist/js/app.js')
     body(data-page=`'${pageData}'`)
         #root
